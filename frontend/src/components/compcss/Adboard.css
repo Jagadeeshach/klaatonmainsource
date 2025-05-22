@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.parent-div-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+/* .cat-div {
+  font-family:"Kanit", serif;
+  font-weight: 100;
+} */
+.top-fash-collc {
+  font-weight: bold;
+  color: rgb(2, 18, 77);
+}
+.parent-div-board .filt-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.pagination button {
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.pagination button.active {
+  background-color: rgb(0, 238, 243);
+  color: rgb(2, 18, 77);
+  border: 1px solid rgb(0, 238, 243);
+}
+
+.parent-div-board .filt-div div h4 {
+  font-weight: bold;
+}
+
+.parent-div-board .main-div {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 2.5%;
+  position: relative;
+}
+
+.parent-div-board .main-div .mainad-div {
+  height: 100%;
+  width: 70%;
+  position: relative;
+  overflow: hidden;
+}
+
+.parent-div-board .main-div .mainad-div .lazymainLoadImage {
+ width: 170%;
+ height: 350px;
+}
+
+.parent-div-board .main-div .mainad-div .desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Playfair Display", serif; 
+  font-size: 36px;
+  color: white; 
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7); 
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 15px 80px;
+  border-radius: 12px;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.parent-div-board .main-div .secad-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+  width: 30%;
+}
+
+.parent-div-board .main-div .secad-div .LazyLoadImage {
+  height: 350px;
+  width: 330px;
+}
+
+.parent-div-board .main-div .secad-div .secdev {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: white;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px 30px;
+  border-radius: 12px;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.parent-div-board .maincat-div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.parent-div-board .maincat-div .cat-div {
+  height: 150px;
+  width: 150px;
+  flex: 1 1 calc(10% - 10px);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent-div-board .maincat-div .cat-div .LazyLoadImage {
+  height: 100%;
+  width: 100%;
+}
+.parent-div-board .maincat-div .cat-div p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Kanit", serif;
+  font-size: 22px;
+  color: white; /* White text for contrast */
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7); /* Text shadow for clarity */
+  background: rgba(0, 0, 0, 0.5); /* Dark background with transparency */
+  padding: 15px 30px;
+  border-radius: 12px;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.parent-div-board .maincat-div .cat-div p:hover {
+  color: rgb(1, 4, 36); /* White text for contrast */
+  background-color: rgb(0, 238, 243);
+}
+
+.card-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.home-back-btn,
+.no-product-btn{
+  color: rgb(0, 238, 243);
+  background-color: rgb(6, 37, 151);
+  border-radius: 5px;
+  padding: 4px;
+  font-size: bold;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.home-back-btn:hover,
+.home-back-btn:hover {
+ color: white;
+}
+
+.home-trend-btn {
+  color:  rgb(6, 37, 151);
+  background-color: rgb(23, 228, 232);
+  border-radius: 5px;
+  padding: 4px;
+  font-size: bold;
+  cursor: pointer;
+  transition: all 0.5s ease;
+
+}
+.tet-yg{
+  color: white;
+  background-color: rgb(6, 37, 151);
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.not-found-adboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  background-color: #1cd8f9;
+  color: #012e64;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.not-found-adboard h4 {
+  color: white;
+}
+
+.not-found-adboard h5 {
+  cursor: pointer;
+}
+
+/* Mobile: Below 380px */
+@media (max-width: 380px) {
+  .parent-div-board {
+    gap: 20px;
+  }
+
+  .head-product-search .rotf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    wrap: wrap;
+  }
+  
+  .top-fash-collc {
+    font-size: 13px;
+  }
+
+  .parent-div-board .main-div {
+    height: 150px;
+  }
+  .parent-div-board .main-div .mainad-div {
+    height: 100%;
+    width: 65%;
+    position: relative;
+  }
+  .parent-div-board .main-div .mainad-div .lazymainLoadImage {
+    height: 150px;
+    width: 100%;
+  }
+  .parent-div-board .main-div .secad-div {
+    height: 100%;
+    width: 35%;
+  }
+  .parent-div-board .main-div .secad-div .LazyLoadImage {
+    height: 150px;
+    width: 100%;
+  }
+  .parent-div-board .main-div .mainad-div .desc {
+    font-size: 12px;
+    padding: 2px 10px;
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+  .parent-div-board .main-div .mainad-div .desc h3 {
+    font-size: 15px;
+  }
+  .parent-div-board .main-div .secad-div .secdev {
+    font-size: 9px;
+    padding: 2px 10px;
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+  .parent-div-board .main-div .secad-div .secdev h4 {
+    font-size: 12px;
+  }
+  .parent-div-board .maincat-div .cat-div {
+    flex: 1 1 calc(25% - 10px);
+    height: 87px;
+    background-color: rgb(0, 182, 243);
+  }
+  .home-back-btn,
+  .home-trend-btn,
+  .no-product-btn,
+  .tet-yg{
+    font-size: 13px;
+  }
+
+  .parent-div-board .maincat-div .cat-div p {
+    font-size: 12px;
+  }
+}
+
+/* Small Devices: 381px to 480px */
+@media (min-width: 381px) and (max-width: 480px) {
+  .head-product-search .rotf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    wrap: wrap;
+  }
+
+  .parent-div-board {
+    gap: 20px;
+  }
+
+  .top-fash-collc {
+    font-size: 13px;
+  }
+
+  .parent-div-board .main-div {
+    height: 200px;
+  }
+  .parent-div-board .main-div .mainad-div {
+    height: 100%;
+    width: 60%;
+    position: relative;
+  }
+  .parent-div-board .main-div .mainad-div .lazymainLoadImage {
+    height: 200px;
+    width: 120%;
+  }
+  .parent-div-board .main-div .secad-div {
+    height: 100%;
+    width: 40%;
+  }
+  .parent-div-board .main-div .secad-div .LazyLoadImage {
+    height: 200px;
+    width: 100%;
+  }
+  .parent-div-board .main-div .mainad-div .desc {
+    font-size: 12px;
+    padding: 2px 10px;
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+  .parent-div-board .main-div .mainad-div .desc h3 {
+    font-size: 15px;
+  }
+  .parent-div-board .main-div .secad-div .secdev {
+    font-size: 9px;
+    padding: 2px 10px;
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+  .parent-div-board .main-div .secad-div .secdev h4 {
+    font-size: 12px;
+  }
+  .parent-div-board .maincat-div .cat-div {
+    flex: 1 1 calc(25% - 10px);
+    height: 100px;
+    background-color: rgb(0, 182, 243);
+  }
+  .home-back-btn,
+  .home-trend-btn,
+  .no-product-btn,
+  .tet-yg{
+    font-size: 15px;
+  }
+
+  .parent-div-board .maincat-div .cat-div p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .parent-div-board .main-div {
+    height: 270px;
+  }
+
+  .top-fash-collc {
+    font-size: 20px;
+  }
+
+  .parent-div-board .main-div .mainad-div {
+    height: 100%;
+    width: 70%;
+    position: relative;
+  }
+  .parent-div-board .main-div .mainad-div .lazymainLoadImage {
+    height: 270px;
+    width: 120%;
+  }
+  .parent-div-board .main-div .secad-div {
+    height: 100%;
+    width: 30%;
+  }
+  .parent-div-board .main-div .secad-div .LazyLoadImage {
+    height: 270px;
+    width: 100%;
+  }
+  .parent-div-board .main-div .mainad-div .desc {
+    font-size: 15px;
+    padding: 4px 12px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+  }
+  .parent-div-board .main-div .mainad-div .desc h3 {
+    font-size: 18px;
+  }
+  .parent-div-board .main-div .secad-div .secdev {
+    font-size: 12px;
+    padding: 4px 12px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+  }
+  .parent-div-board .main-div .secad-div .secdev h4 {
+    font-size: 15px;
+  }
+  .parent-div-board .maincat-div .cat-div {
+    flex: 1 1 calc(25% - 10px);
+    height: 150px;
+    width: 150px;
+    background-color: rgb(0, 182, 243);
+  }
+  .home-back-btn,
+  .home-trend-btn,
+  .no-product-btn,
+  .tet-yg{
+    font-size: 17px;
+  }
+}
+
+/* Tablets and Small Laptops */
+@media (min-width: 768px) and (max-width: 1022px) {
+  /* Tablets, small laptops, and devices in landscape orientation */
+  .parent-div-board .main-div {
+    height: 300px;
+  }
+  .parent-div-board .main-div .mainad-div {
+    height: 100%;
+    width: 70%;
+    position: relative;
+  }
+  .parent-div-board .main-div .mainad-div .lazymainLoadImage {
+    height: 300px;
+    width: 157%;
+  }
+  .parent-div-board .main-div .secad-div {
+    height: 100%;
+    width: 30%;
+  }
+  .parent-div-board .main-div .secad-div .LazyLoadImage {
+    height: 300px;
+    width: 220px;
+  }
+  .parent-div-board .main-div .mainad-div .desc {
+    font-size: 22px;
+    padding: 6px 14px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+  }
+  .parent-div-board .main-div .mainad-div .desc h3 {
+    font-size: 27px;
+  }
+  .parent-div-board .main-div .secad-div .secdev {
+    font-size: 18px;
+    padding: 6px 14px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+  }
+  .parent-div-board .main-div .secad-div .secdev h4 {
+    font-size: 22px;
+  }
+  .parent-div-board .maincat-div .cat-div {
+    flex: 1 1 calc(25% - 10px);
+    height: 170px;
+    /* width: 150px; */
+    background-color: rgb(0, 182, 243);
+  }
+}
+
+/* Laptops */
+@media (min-width: 1023px) and (max-width: 1100px) {
+  /* Laptops and small desktops */
+  .parent-div-board .main-div {
+    height: 300px;
+  }
+  .parent-div-board .main-div .mainad-div {
+    height: 100%;
+    width: 70%;
+    position: relative;
+  }
+  .parent-div-board .main-div .mainad-div .lazymainLoadImage {
+    height: 300px;
+    width: 156%;
+  }
+  .parent-div-board .main-div .secad-div {
+    height: 100%;
+    width: 30%;
+  }
+
+  .parent-div-board .main-div .secad-div .LazyLoadImage {
+    height: 300px;
+    width: 280px;
+  }
+
+  .parent-div-board .main-div .secad-div  {
+    height: 300px;
+    width: 300px;
+  }
+  .parent-div-board .main-div .mainad-div .desc {
+    font-size: 22px;
+    padding: 6px 14px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+  }
+  .parent-div-board .main-div .mainad-div .desc h3 {
+    font-size: 27px;
+  }
+  .parent-div-board .main-div .secad-div .secdev {
+    font-size: 18px;
+    padding: 6px 14px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+  }
+  .parent-div-board .main-div .secad-div .secdev h4 {
+    font-size: 22px;
+  }
+  .parent-div-board .maincat-div .cat-div {
+    flex: 1 1 calc(10% - 10px);
+    height: 120px;
+    background-color: rgb(0, 182, 243);
+  }
+}
+
+/* Large Devices (Desktops and TV screens) */
+@media (min-width: 1281px) {
+  /* Larger desktop screens */
+}

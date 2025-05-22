@@ -1,0 +1,70 @@
+
+.admin-main-new-head-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.admin-main-new-head-box .admin-main-new-sidebar {
+    width: 15%;
+    height: 100%;
+    background-color: blue;
+}
+
+.admin-main-new-head-box .admin-main-new-main-box {
+    background-color: green;
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-main-new-head-box .admin-main-new-main-box h2 {
+    background-color: pink;
+}
+
+.admin-main-new-head-box .admin-main-new-main-box .admin-main-new-content {
+     background-color: pink;
+     display: flex;
+     gap: 10px;
+     flex-direction: column;
+}
+
+.admin-main-new-head-box .admin-main-new-main-box .admin-det-card {
+    background-color: skyblue;
+    padding: 10px;
+    
+}
+
+.admin-main-new-head-box .admin-main-new-main-box .admin-main-new-content .content-delt-updt-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin-main-new-head-box .admin-main-new-main-box .admin-main-new-content .content-delt-updt-btn .dlt-icon {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+
+}
+
+.admin-main-new-head-box .admin-main-new-main-box .admin-main-new-content .content-delt-updt-btn .updt-icon {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.coupon-code-list {
+    height: 200px;  /* Fixed height */
+    overflow-y: auto;  /* Enable vertical scroll */
+    border: 1px solid #ccc;  /* Optional: adds a border */
+    padding: 10px;
+    background-color: #f9f9f9;  /* Light background for contrast */
+}

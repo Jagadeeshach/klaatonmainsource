@@ -1,0 +1,27 @@
+.earning-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.earning-head .earnings {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-earnings {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #1cd8f9;
+    color: #012e64;
+    list-style: none;
+}
+
+.earning-head .earnings ul li {
+    list-style: none;
+}

@@ -1,0 +1,104 @@
+.parent-div-new {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.parent-div-new .side-bar {
+  width: 18%;
+}
+
+.parent-div-new .main-div {
+  background-color: pink;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.parent-div-new .main-div .form-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent-div-new .main-div .form-parent .first-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.parent-div-new .main-div .form-parent .first-part .main-ad-image-parent {
+}
+
+.parent-div-new
+  .main-div
+  .form-parent
+  .first-part
+  .main-ad-image-parent
+  .ad-image-input-div {
+}
+.parent-div-new .main-div .form-parent input {
+  border-radius: 5px;
+}
+
+.parent-div-new .main-div .form-parent .first-part {
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: rgb(85, 143, 249);
+}
+
+.parent-div-new .main-div .form-parent .first-part .subdiv-main {
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: rgb(40, 115, 255);
+  padding: 10px 7px;
+  width: 100%;
+}
+
+.parent-div-new .main-div .form-parent .first-part .secsub {
+  padding: 35px 7px;
+}
+
+.parent-div-new .main-div .form-parent .first-part .subdiv-main .ad-title,
+.parent-div-new .main-div .form-parent .first-part .subdiv-main .ad-description,
+.parent-div-new .main-div .form-parent .first-part .secsub .secad-title,
+.parent-div-new .main-div .form-parent .first-part .secsub .secad-description,
+.parent-div-new .main-div .form-parent .second-part .formal-parent,
+.parent-div-new .main-div .form-parent .second-part .casual-parent,
+.parent-div-new .main-div .form-parent .second-part .shoes-parent,
+.parent-div-new .main-div .form-parent .third-part .hoodies-parent,
+.parent-div-new .main-div .form-parent .third-part .caps-parent,
+.parent-div-new .main-div .form-parent .third-part .shirts-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+@media (max-width: 380px) {
+}
+@media (min-width: 381px) and (max-width: 480px) {
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Tablets and Small Laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Tablets, small laptops, and devices in landscape orientation */
+}
+
+/* Laptops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Laptops and small desktops */
+}
+
+/* Large Devices (Desktops and TV screens) */
+@media (min-width: 1281px) {
+  /* Larger desktop screens */
+}

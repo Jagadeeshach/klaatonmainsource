@@ -1,0 +1,35 @@
+.delivery-team-update-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.delivery-team-update-head .delivery-sidebar-update {
+    height: 100%;
+    width: 15%;
+    background-color: red;
+}
+
+.delivery-team-update-head .delivery-sidebar-update .side-bar-tag{
+    height: 100%;
+    width: 15%;
+    background-color: green;
+}
+
+.delivery-team-update-head .delivery-team-update-inside {
+    height: 100%;
+    width: 80%;
+    background-color: pink;
+}
+
+.delivery-team-update-head .delivery-team-update-inside .delivery-team-update-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: skyblue;
+    height: 100%;
+    width: 50%;
+}

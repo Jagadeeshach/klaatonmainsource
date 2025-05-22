@@ -1,0 +1,87 @@
+.privacy-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.privacy-head b {
+  font-weight: bold;
+}
+
+@media (max-width: 380px) {
+  .privacy-head h2 {
+    font-size: 23px;
+  }
+  .privacy-head h4 {
+    font-size: 18px;
+  }
+
+  .privacy-head h5 {
+    font-size: 16px;
+  }
+  .privacy-head p {
+    font-size: 14px;
+  }
+  .privacy-head li {
+    font-size: 14px;
+  }
+  .privacy-head b {
+    font-weight: bold;
+  }
+}
+@media (min-width: 381px) and (max-width: 480px) {
+  .privacy-head h2 {
+    font-size: 25px;
+  }
+  .privacy-head h4 {
+    font-size: 20px;
+  }
+
+  .privacy-head h5 {
+    font-size: 18px;
+  }
+  .privacy-head p {
+    font-size: 16px;
+  }
+  .privacy-head li {
+    font-size: 16px;
+  }
+  .privacy-head b {
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .privacy-head h2 {
+    font-size: 26px;
+  }
+  .privacy-head h4 {
+    font-size: 21px;
+  }
+
+  .privacy-head h5 {
+    font-size: 19px;
+  }
+  .privacy-head p {
+    font-size: 17px;
+  }
+  .privacy-head li {
+    font-size: 17px;
+  }
+  .privacy-head b {
+    font-weight: bold;
+  }
+}
+
+/* Tablets and Small Laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Laptops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* Large Devices (Desktops and TV screens) */
+@media (min-width: 1281px) {
+}

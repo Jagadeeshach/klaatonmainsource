@@ -1,0 +1,183 @@
+.child-card {
+  height: 350px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-title a {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #00052a;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.card-title a:hover {
+  color: #1938e6;
+  text-decoration: none;
+}
+
+.card-body {
+  background-color: #014293;
+  padding: 0px 4px;
+  width: 220px;
+}
+
+.card-text {
+  font-size: 11.5px;
+  font-weight: bold;
+  color: white;
+}
+
+.card-text span {
+  text-decoration: line-through;
+  text-decoration-color: white; 
+  text-decoration-thickness: 1.5px;
+}
+
+#view_btn {
+  background-color: #1cd8f9;
+  color: white;
+}
+
+.card-img-top {
+  width: 220px;
+  height: 270px;
+}
+
+.ratings {
+  font-size: 1.2rem;
+  color: #fdcc0d;
+}
+
+#no_of_reviews {
+  font-size: 0.85rem;
+  color: grey;
+}
+
+.size-box{
+  font-size: 10px;
+  color:rgb(62, 215, 242);
+  background-color:rgb(3, 17, 94);
+  border-radius: 4px;
+  padding: 5px;
+}
+.size-head-box{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.mbl-btn {
+  font-size: 12px;
+  background-color: rgb(62, 215, 242);
+}
+
+@media (max-width: 380px) {
+  .child-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 120px;
+  }
+  .card-img-top {
+    width: 120px;
+    height: 160px;
+  }
+  .card-title,
+  .card-title a {
+    font-size: 8px;
+    width: 100%;
+  }
+  .card-text {
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+  }
+  .ratings {
+    font-size: 0.8rem;
+  }
+  .mbl-btn {
+    font-size: 10px;
+  }
+  .card-body {
+    padding: 6px 2px;
+    width: 120px;
+    height: 50px;
+  }
+  .size-head-box{
+    gap: 1px;
+  }
+  .size-box {
+    font-size: 9px;
+  }
+
+}
+@media (min-width: 381px) and (max-width: 480px) {
+  .child-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 120px;
+  }
+  .card-img-top {
+    width: 120px;
+    height: 160px;
+  }
+  .card-title,
+  .card-title a {
+    font-size: 8px;
+    width: 100%;
+  }
+  .card-text {
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+  }
+  .ratings {
+    font-size: 0.8rem;
+  }
+  .mbl-btn {
+    font-size: 10px;
+  }
+  .card-body {
+    padding: 6px 2px;
+    width: 120px;
+    height: 50px;
+  }
+  .size-head-box{
+    gap: 1px;
+  }
+  .size-box {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .child-card {
+    display: flex;
+  }
+}
+
+/* Tablets and Small Laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Tablets, small laptops, and devices in landscape orientation */
+  .large-nav {
+    display: block;
+  }
+}
+
+/* Laptops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Laptops and small desktops */
+}
+
+/* Large Devices (Desktops and TV screens) */
+@media (min-width: 1281px) {
+  /* Larger desktop screens */
+}

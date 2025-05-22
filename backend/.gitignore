@@ -1,0 +1,6 @@
+# Dependency directory
+node_modules/
+
+# Ignore the config.env file inside the config folder
+backend/config/config.env
+frontend/node_modules/

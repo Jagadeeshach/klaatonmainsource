@@ -1,0 +1,46 @@
+.parent-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0;
+  background-color: rgb(209, 251, 246);
+}
+.parent-div .side-bar {
+  width: 17.4%;
+}
+.parent-div .main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(144, 252, 239);
+  width: 90%;
+}
+.parent-div .main-div .ad-lists {
+  height: 100%;
+  width: 98%;
+  background-color: pink;
+  padding: 5px;
+}
+
+@media (max-width: 380px) {
+}
+
+@media (min-width: 381px) and (max-width: 480px) {
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Tablets, small laptops, and devices in landscape orientation */
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Laptops and small desktops */
+}
+
+@media (min-width: 1281px) {
+  /* Larger desktop screens */
+}

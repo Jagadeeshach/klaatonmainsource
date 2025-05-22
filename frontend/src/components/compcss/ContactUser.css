@@ -1,0 +1,166 @@
+.contact-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-main h2 {
+  background-color: #012e64;
+  font-size: bold;
+  color: #1cd8f9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contact-main h4 {
+  background-color: #012e64;
+  font-size: bold;
+  color: #1cd8f9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contact-main .contact-address ul {
+  list-style: none;
+}
+
+.forms-main{
+  display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: #012e64;
+   color: white;
+   width: 500px;
+   height: 100%;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.forms-main input{
+  border: 2px solid #1cd8f9;
+  border-radius: 5px;
+  width: 300px;
+}
+.forms-main textarea{
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 200px;
+  
+}
+.forms-main [type="submit"]{
+  background-color: #1cd8f9;
+  color: #012e64;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.forms-main [type="submit"]:hover,
+.forms-main [type="submit"]:active
+{
+  background-color: #1cd8f9;
+  color:rgb(1, 14, 29);
+  
+}
+
+@media (max-width: 380px) {
+  .contact-main h2 {
+    font-size: 20px;
+  }
+
+  .contact-main h4 {
+    font-size: 17px;
+  }
+  .contact-main p {
+    font-size: 15px;
+  }
+
+  .forms-main{
+     width: 250px;
+     height: 100%;
+  }
+  
+  .forms-main input{
+    width: 200px;
+  }
+  .forms-main textarea{
+    width: 200px;
+    height: 100px;
+  }
+  .forms-main input::placeholder,
+ .forms-main textarea::placeholder{
+  font-size: 15px;
+ }
+}
+@media (min-width: 381px) and (max-width: 480px) {
+  .contact-main h2 {
+    font-size: 22px;
+  }
+
+  .contact-main h4 {
+    font-size: 19px;
+  }
+  .contact-main p {
+    font-size: 17px;
+  }
+  .forms-main{
+    width: 300px;
+    height: 100%;
+ }
+ 
+ .forms-main input{
+   width: 250px;
+ }
+ .forms-main textarea{
+   width: 250px;
+   height: 100px;
+ }
+ .forms-main input::placeholder,
+ .forms-main textarea::placeholder{
+  font-size: 17px;
+ }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .contact-main h2 {
+    font-size: 25px;
+  }
+
+  .contact-main h4 {
+    font-size: 20px;
+  }
+  .contact-main p {
+    font-size: 18px;
+  }
+  .forms-main{
+    width: 350px;
+    height: 100%;
+ }
+ 
+ .forms-main input{
+   width: 280px;
+ }
+ .forms-main textarea{
+   width: 280px;
+   height: 100px;
+ }
+ .forms-main input::placeholder,
+ .forms-main textarea::placeholder{
+  font-size: 18px;
+ }
+}
+
+/* Tablets and Small Laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Laptops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* Large Devices (Desktops and TV screens) */
+@media (min-width: 1281px) {
+}

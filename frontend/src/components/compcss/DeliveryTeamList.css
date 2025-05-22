@@ -1,0 +1,29 @@
+.delivery-team-list-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.delivery-team-list-head .delivery-sidebar-list {
+    height: 100%;
+    width: 15%;
+    background-color: red;
+}
+
+.delivery-team-list-head .delivery-sidebar-list .side-bar-tag{
+    height: 100%;
+    width: 15%;
+    background-color: green;
+}
+
+.delivery-team-list-head .delivery-team-list-inside {
+    height: 100%;
+    width: 80%;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+

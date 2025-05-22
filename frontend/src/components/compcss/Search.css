@@ -1,0 +1,104 @@
+.large-dev {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #1cd8f9;
+}
+
+#category_field {
+  background-color:rgb(116, 234, 255);
+  color: rgb(2, 45, 102);
+  width: 200px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.mobile-content-head {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-product-search {
+  height: 100%;
+  width: 100%;
+}
+
+.head-product-search .rotf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.mbl {
+  width: 100%;
+  height: 10%;
+}
+
+.hhghhg {
+  width: 100%;
+  height: 100%;
+}
+
+.not-found-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  background-color: #1cd8f9;
+  color: #012e64;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.not-found-search h4 {
+  color: white;
+} 
+
+@media (max-width: 480px) {
+  .head-product-search .rotf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    wrap: wrap;
+  }
+  #category_field {
+    width: 130px;
+    font-size: 12px;
+  }
+  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Mobile devices (large phones, portrait & landscape) */
+}
+
+/* Tablets and Small Laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Tablets, small laptops, and devices in landscape orientation */
+  
+}
+
+/* Laptops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Laptops and small desktops */
+}
+
+/* Large Devices (Desktops and TV screens) */
+@media (min-width: 1281px) {
+  /* Larger desktop screens */
+ 
+}
